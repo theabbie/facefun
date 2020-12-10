@@ -17,5 +17,6 @@ module.exports = async function(path) {
     data: data,
     headers: data.getHeaders()
   });
+  res.data.files = res.data.files.map(x=>"http://images.portraitai.app/"+x);
   return res.data;
 }
