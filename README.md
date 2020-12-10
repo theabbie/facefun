@@ -4,6 +4,18 @@
 
 >**Unofficial FaceFun API**
 
+## Example
+
+The Following Code snipet will help you understand how to use this.
+
+```js
+var face = require("facefun");
+
+(async function() {
+  await face(path);
+})();
+```
+
 ## Contributing
 
 Thank you for your interest in contributing, If you feel like there's something missing or any new feature can be added, just create a PR and I will see the rest.
